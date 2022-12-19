@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>Filter</h1>
+      <h2>Filter</h2>
       {count}
     </div>
   )
