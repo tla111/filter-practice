@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import FilterNames from './components/filterNames'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>Filter</h1>
-      <h2>Filter</h2>
+      <FilterNames />
       {count}
     </div>
   )
