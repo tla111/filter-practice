@@ -4,6 +4,7 @@ import JSONDATA from '../mockData.json';
 function FilterNames() {
     const [searchName, setSearchName] = useState("");
     // const [, set] = useState("");
+    // const [first, setfirst] = useState(second)
 
     return (
         <div className="App">
