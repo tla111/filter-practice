@@ -18,8 +18,8 @@ const DropdownMenu = () => {
     return (
         <div>
             <h1>Dropdown Menu</h1>
-            <Select options={options} onChange={handleChange} />
-            {show && <h2>Ice Cream: {showSelectedOption.value.charAt(0).toUpperCase() + showSelectedOption.value.slice(1)}</h2>}
+            <Select options={options} onChange={handleChange} isMulti />
+            {/* {show && <h2>Ice Cream: {showSelectedOption.value.charAt(0).toUpperCase() + showSelectedOption.value.slice(1)}</h2>} */}
         </div>
     )
 }
